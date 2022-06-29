@@ -1,26 +1,4 @@
 <template>
-<<<<<<< HEAD
-<div>
-  <header-component-vue/>
-   
-  <main-component-vue/>
-  
-  <footer-component-vue/>
-</div>
-  
-</template>
-
-<script>
-import FooterComponentVue from '../components/Footer.component.vue'
-import MainComponentVue from '../components/MainComponent.vue'
-import HeaderComponentVue from '../components/HeaderComponent.vue'
-export default {
-    name: "App",
-    components: {
-        HeaderComponentVue,
-        MainComponentVue,
-        FooterComponentVue
-=======
   <div>
    <header-component />
    <main-component />
@@ -39,7 +17,6 @@ export default {
         MainComponent,
         FooterComponent
 
->>>>>>> bd40c8494d5523d878896ee4cc6a516674313ce0
     }
 
 
