@@ -43,7 +43,8 @@ export default {
     methods:{
         addComment(){
             axios.post('/api/comments', this.commento).then((response)=>{
-                this.commento.push()
+                console.log(response);
+                this.post.comments.push(response.data)
             })
         }
     },

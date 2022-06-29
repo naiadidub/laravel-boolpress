@@ -2174,7 +2174,9 @@ __webpack_require__.r(__webpack_exports__);
       var _this = this;
 
       axios.post('/api/comments', this.commento).then(function (response) {
-        _this.commento.push();
+        console.log(response);
+
+        _this.post.comments.push(response.data);
       });
     }
   },
